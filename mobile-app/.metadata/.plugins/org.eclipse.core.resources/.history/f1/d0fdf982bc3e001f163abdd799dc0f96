@@ -1,0 +1,78 @@
+package com.shopping.ws.controller;
+
+import jakarta.validation.Valid;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.UUID;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.shopping.ws.rest.model.request.UpdateUserRequestModel;
+import com.shopping.ws.rest.model.request.UserRequestModel;
+import com.shopping.ws.rest.model.response.UserResponseModel;
+
+@RestController
+@RequestMapping("/users")
+public class MobileController {
+
+	Map<String, UserResponseModel> users;
+
+	@GetMapping() // http://localhost:5000/user?page=1&limit=50[[[display 50 row on 1 page]]]
+	public String getUsers(@RequestParam(value = "page", defaultValue = "1") int page,
+			@RequestParam(value = "limit", defaultValue = "100") int limit,
+			@RequestParam(value = "sort", required = false) String sort) {// Default value in case we miss any required
+																			// parameters
+		return "get user was called with page: " + page + " limit: " + limit + " sort: " + sort;
+	}
+
+	@GetMapping(path = "/{userId}", produces = { MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE })
+	public ResponseEntity<UserResponseModel> getUser(@PathVariable String userId) {
+		 
+		if (users.containsKey(userId)) {
+			return new ResponseEntity<UserResponseModel>(users.get(userId), HttpStatus.OK);
+		} else {
+			return new ResponseEntity<UserResponseModel>(HttpStatus.NO_CONTENT);
+		}
+	}
+
+	@PostMapping(consumes = { MediaType.APPLICATION_XML_VALUE, MediaType.APPLICATION_JSON_VALUE }, produces = {
+			MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE })
+	public ResponseEntity<UserResponseModel> createUser(@Valid @RequestBody UserRequestModel request) {
+	
+
+		return new ResponseEntity<UserResponseModel>(re, HttpStatus.OK);
+	}
+
+	@PutMapping(path = ("/{userId}"), consumes = { MediaType.APPLICATION_XML_VALUE,
+			MediaType.APPLICATION_JSON_VALUE }, produces = { MediaType.APPLICATION_JSON_VALUE,
+					MediaType.APPLICATION_XML_VALUE })
+	public UserResponseModel updateUser(@PathVariable String userId,
+			@Valid @RequestBody UpdateUserRequestModel request) {
+
+		UserResponseModel updates = users.get(userId); // get user by user ID
+		updates.setFirstName(request.getFirstName());
+		updates.setLastName(request.getLastName());
+
+		users.put(userId, updates);
+		return updates;
+	}
+
+	@DeleteMapping(path = ("/{id}"))
+	public ResponseEntity<Void> deleteUser(@PathVariable String id) {
+		users.remove(id);
+		return new ResponseEntity<Void>(HttpStatus.NO_CONTENT);
+	}
+
+}

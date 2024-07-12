@@ -1,0 +1,5 @@
+package com.shopping.ws.controller;
+
+public class MobileProduct {
+
+}

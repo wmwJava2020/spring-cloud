@@ -1,0 +1,47 @@
+package com.shopping.ws.service;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.UUID;
+
+import org.springframework.stereotype.Service;
+
+import com.shopping.ws.rest.model.request.UserRequestModel;
+import com.shopping.ws.rest.model.response.UserResponseModel;
+@Service
+public class UserServiceImpl implements UserService {
+	
+	Map<String, UserResponseModel> users;
+
+	@Override
+	public UserResponseModel createUser(UserRequestModel request) {
+		
+		UserResponseModel re = new UserResponseModel();
+		
+		re.setFirstName(request.getFirstName());
+		re.setLastName(request.getLastName());
+		re.setEmail(request.getEmail());
+
+		String userId = UUID.randomUUID().toString();
+		re.setUserId(userId);
+
+		if (users == null)
+			users = new HashMap<>();
+		users.put(userId, re);
+		
+		return re;
+	}
+
+	@Override
+	public UserResponseModel updateUser(String userId) {
+		UserResponseModel updates = users.get(userId); // get user by user ID
+		updates.setFirstName(userId.getFirstName());
+		updates.setLastName(userId.getLastName());
+		
+
+		users.put(userId, updates);
+
+		return updates;
+	}
+
+}

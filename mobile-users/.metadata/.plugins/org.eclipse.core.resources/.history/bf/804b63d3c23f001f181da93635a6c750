@@ -1,0 +1,13 @@
+package com.shopping.ws.service;
+
+import java.time.LocalDateTime;
+import java.util.Map;
+
+import com.shopping.ws.product.Products;
+
+public interface MobileProductService {
+	
+	public Map<String,Products> getMobileModel();
+	public LocalDateTime purchasedDate();
+
+}

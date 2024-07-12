@@ -1,0 +1,12 @@
+package com.shopping.ws.service;
+
+import java.util.UUID;
+
+public class MobileProductService {
+	
+	public String getMobileModel() {
+		String str = UUID.randomUUID().toString();
+		return str;
+	}
+
+}
