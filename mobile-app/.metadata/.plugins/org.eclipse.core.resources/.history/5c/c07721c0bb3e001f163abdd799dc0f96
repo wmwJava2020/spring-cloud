@@ -1,0 +1,5 @@
+package com.shopping.ws.service;
+
+public interface UserServices {
+
+}

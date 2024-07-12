@@ -1,0 +1,36 @@
+package com.shopping.ws.service;
+
+import java.time.LocalDateTime;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.UUID;
+
+import org.springframework.stereotype.Service;
+
+import com.shopping.ws.product.Products;
+
+@Service
+public class MobileProductServiceImpl implements MobileProductService    {
+
+	static Map<String,Products> map = new HashMap<>();
+	
+	@Override
+	public Map<String, Products> getMobileModel()  {
+		
+		//Products products = new Products();
+		map.put("11", new Products(UUID.randomUUID().toString(),"IPhone",LocalDateTime.now()));
+		map.put("12", new Products(UUID.randomUUID().toString(),"Samsung",LocalDateTime.now()));
+		map.put("13", new Products(UUID.randomUUID().toString(),"Ericson",LocalDateTime.now()));
+	    map.putAll(map);
+		
+		Map<String, Products> str = map;
+		return str;
+	}
+
+	@Override
+	public LocalDateTime purchasedDate() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

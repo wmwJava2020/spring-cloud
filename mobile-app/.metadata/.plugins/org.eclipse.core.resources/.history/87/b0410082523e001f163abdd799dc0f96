@@ -1,0 +1,34 @@
+package com.shopping.ws.exception;
+
+import java.time.LocalDateTime;
+
+public class MobileAppException {
+	
+	private LocalDateTime timeStamp;
+	private String message;
+	
+	public LocalDateTime getTimeStamp() {
+		LocalDateTime dateTime = LocalDateTime.now();
+		return dateTime;
+	}
+	public void setTimeStamp(LocalDateTime timeStamp) {
+		LocalDateTime dateTime = LocalDateTime.now();
+		this.timeStamp = dateTime;
+	}
+	public String getMessage() {
+		return message;
+	}
+	public void setMessage(String message) {
+		this.message = message;
+	}
+	public MobileAppException() {
+		super();
+	}
+	public MobileAppException(LocalDateTime timeStamp, String message) {
+		this.timeStamp = timeStamp;
+		this.message = message;
+	}
+	
+	
+
+}

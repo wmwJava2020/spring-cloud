@@ -1,0 +1,5 @@
+package com.shopping.ws.exception;
+
+public class AppsExceptionHandler {
+
+}

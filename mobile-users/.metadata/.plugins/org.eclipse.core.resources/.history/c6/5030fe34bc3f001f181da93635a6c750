@@ -1,0 +1,7 @@
+package com.shopping.ws.service;
+
+public interface MobileProductService {
+	
+	public String getMobileModel();
+
+}

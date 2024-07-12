@@ -1,0 +1,555 @@
+!SESSION 2024-07-12 10:29:44.543 -----------------------------------------------
+eclipse.buildId=4.23.1.202406150140
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-12 10:29:47.158
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-12 10:29:51.114
+!MESSAGE Logback config file: C:\Users\AIDA\java\sts\v3\mobile-eureka\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-07-12 10:29:51.676
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-12 10:29:51.676
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-07-12 10:29:52.047
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-12 10:29:52.047
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-07-12 10:29:58.862
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\AIDA'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:32:00.307
+!MESSAGE Classpath changed for project: mobile-eureka
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:32:00.313
+!MESSAGE Boot project ADDED: mobile-eureka
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:32:00.313
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:32:00.340
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-12 10:32:00.358
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\AIDA\sts\sts-4.23.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530\jre\bin\javaw.exe
+-cp
+C:\Users\AIDA\sts\sts-4.23.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.55.1.202406141939\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\AIDA\sts\sts-4.23.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.55.1.202406141939\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\AIDA\sts\sts-4.23.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.55.1.202406141939\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/AIDA/java/sts/v3/mobile-eureka/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1720798320357
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:32:00.359
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-12 10:32:00.479
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 8996
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:33:15.065
+!MESSAGE Classpath changed for project: mobile-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:33:15.808
+!MESSAGE Classpath changed for project: mobile-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:33:15.821
+!MESSAGE Boot project ADDED: mobile-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:33:16.542
+!MESSAGE Classpath changed for project: mobile-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:33:31.653
+!MESSAGE Classpath changed for project: mobile-acct
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:33:31.990
+!MESSAGE Classpath changed for project: mobile-acct
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:33:31.992
+!MESSAGE Boot project ADDED: mobile-acct
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:33:32.557
+!MESSAGE Classpath changed for project: mobile-acct
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:34:14.272
+!MESSAGE Classpath changed for project: mobile-api-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:34:14.274
+!MESSAGE Classpath changed for project: mobile-product
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:34:14.274
+!MESSAGE Classpath changed for project: mobile-users
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2024-07-12 10:34:15.145
+!MESSAGE Could not read maven project
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:371)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readProject(MavenImpl.java:361)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.lambda$4(AbstractMavenArchiverConfigurator.java:576)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.loadParentHierarchy(AbstractMavenArchiverConfigurator.java:568)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.generateManifest(AbstractMavenArchiverConfigurator.java:365)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.mavenProjectChanged(AbstractMavenArchiverConfigurator.java:228)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.mavenProjectChanged(AbstractMavenArchiverConfigurator.java:220)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.mavenProjectChanged(ProjectConfigurationManager.java:885)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:324)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:256)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$1(ProjectConfigurationManager.java:166)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:139)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob$1.doCreateMavenProjects(ImportMavenProjectsJob.java:71)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:56)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob.runInWorkspace(ImportMavenProjectsJob.java:80)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.project.ProjectBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-readable POM C:\Users\AIDA\java\sts\v3\mobile-users\mobile-gateway: C:\Users\AIDA\java\sts\v3\mobile-users\mobile-gateway (Access is denied) @ 
+ for project  at C:\Users\AIDA\java\sts\v3\mobile-users\mobile-gateway
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:180)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:123)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:369)
+	... 26 more
+Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-readable POM C:\Users\AIDA\java\sts\v3\mobile-users\mobile-gateway: C:\Users\AIDA\java\sts\v3\mobile-users\mobile-gateway (Access is denied) @ 
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:176)
+	at org.apache.maven.model.building.DefaultModelBuilder.readModel(DefaultModelBuilder.java:643)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:263)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:249)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:176)
+	... 28 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 0 2024-07-12 10:34:15.146
+!MESSAGE Could not read maven project
+!STACK 0
+org.apache.maven.project.ProjectBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-readable POM C:\Users\AIDA\java\sts\v3\mobile-users\mobile-gateway: C:\Users\AIDA\java\sts\v3\mobile-users\mobile-gateway (Access is denied) @ 
+ for project  at C:\Users\AIDA\java\sts\v3\mobile-users\mobile-gateway
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:180)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:123)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:369)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readProject(MavenImpl.java:361)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.lambda$4(AbstractMavenArchiverConfigurator.java:576)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.loadParentHierarchy(AbstractMavenArchiverConfigurator.java:568)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.generateManifest(AbstractMavenArchiverConfigurator.java:365)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.mavenProjectChanged(AbstractMavenArchiverConfigurator.java:228)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.mavenProjectChanged(AbstractMavenArchiverConfigurator.java:220)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.mavenProjectChanged(ProjectConfigurationManager.java:885)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:324)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:256)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$1(ProjectConfigurationManager.java:166)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:139)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob$1.doCreateMavenProjects(ImportMavenProjectsJob.java:71)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:56)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob.runInWorkspace(ImportMavenProjectsJob.java:80)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-readable POM C:\Users\AIDA\java\sts\v3\mobile-users\mobile-gateway: C:\Users\AIDA\java\sts\v3\mobile-users\mobile-gateway (Access is denied) @ 
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:176)
+	at org.apache.maven.model.building.DefaultModelBuilder.readModel(DefaultModelBuilder.java:643)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:263)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:249)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:176)
+	... 28 more
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:34:15.892
+!MESSAGE Classpath changed for project: mobile-product
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:34:15.892
+!MESSAGE Boot project ADDED: mobile-product
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:34:17.440
+!MESSAGE Classpath changed for project: mobile-api-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:34:17.462
+!MESSAGE Boot project ADDED: mobile-api-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:34:17.619
+!MESSAGE Classpath changed for project: mobile-users
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:34:17.620
+!MESSAGE Boot project ADDED: mobile-users
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:34:17.620
+!MESSAGE Classpath changed for project: mobile-api-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:34:17.621
+!MESSAGE Classpath changed for project: mobile-product
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:34:21.164
+!MESSAGE Classpath changed for project: mobile-product
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:34:21.166
+!MESSAGE Classpath changed for project: mobile-users
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2024-07-12 10:35:58.763
+!MESSAGE Could not read maven project
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:371)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readProject(MavenImpl.java:361)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.lambda$4(AbstractMavenArchiverConfigurator.java:576)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.loadParentHierarchy(AbstractMavenArchiverConfigurator.java:568)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.generateManifest(AbstractMavenArchiverConfigurator.java:365)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.mavenProjectChanged(AbstractMavenArchiverConfigurator.java:228)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.mavenProjectChanged(AbstractMavenArchiverConfigurator.java:220)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.mavenProjectChanged(ProjectConfigurationManager.java:885)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:324)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.project.ProjectBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-readable POM C:\Users\AIDA\java\sts\v3\mobile-users\mobile-gateway: C:\Users\AIDA\java\sts\v3\mobile-users\mobile-gateway (Access is denied) @ 
+ for project  at C:\Users\AIDA\java\sts\v3\mobile-users\mobile-gateway
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:180)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:123)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:369)
+	... 35 more
+Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-readable POM C:\Users\AIDA\java\sts\v3\mobile-users\mobile-gateway: C:\Users\AIDA\java\sts\v3\mobile-users\mobile-gateway (Access is denied) @ 
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:176)
+	at org.apache.maven.model.building.DefaultModelBuilder.readModel(DefaultModelBuilder.java:643)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:263)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:249)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:176)
+	... 37 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 0 2024-07-12 10:35:58.763
+!MESSAGE Could not read maven project
+!STACK 0
+org.apache.maven.project.ProjectBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-readable POM C:\Users\AIDA\java\sts\v3\mobile-users\mobile-gateway: C:\Users\AIDA\java\sts\v3\mobile-users\mobile-gateway (Access is denied) @ 
+ for project  at C:\Users\AIDA\java\sts\v3\mobile-users\mobile-gateway
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:180)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:123)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:369)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readProject(MavenImpl.java:361)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.lambda$4(AbstractMavenArchiverConfigurator.java:576)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.loadParentHierarchy(AbstractMavenArchiverConfigurator.java:568)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.generateManifest(AbstractMavenArchiverConfigurator.java:365)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.mavenProjectChanged(AbstractMavenArchiverConfigurator.java:228)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.mavenProjectChanged(AbstractMavenArchiverConfigurator.java:220)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.mavenProjectChanged(ProjectConfigurationManager.java:885)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:324)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-readable POM C:\Users\AIDA\java\sts\v3\mobile-users\mobile-gateway: C:\Users\AIDA\java\sts\v3\mobile-users\mobile-gateway (Access is denied) @ 
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:176)
+	at org.apache.maven.model.building.DefaultModelBuilder.readModel(DefaultModelBuilder.java:643)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:263)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:249)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:176)
+	... 37 more
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2024-07-12 10:36:52.776
+!MESSAGE Could not read maven project
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:371)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readProject(MavenImpl.java:361)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.lambda$4(AbstractMavenArchiverConfigurator.java:576)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.loadParentHierarchy(AbstractMavenArchiverConfigurator.java:568)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.generateManifest(AbstractMavenArchiverConfigurator.java:365)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.mavenProjectChanged(AbstractMavenArchiverConfigurator.java:228)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.mavenProjectChanged(AbstractMavenArchiverConfigurator.java:220)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.mavenProjectChanged(ProjectConfigurationManager.java:885)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:324)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.project.ProjectBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-readable POM C:\Users\AIDA\java\sts\v3\mobile-users\mobile-gateway: C:\Users\AIDA\java\sts\v3\mobile-users\mobile-gateway (Access is denied) @ 
+ for project  at C:\Users\AIDA\java\sts\v3\mobile-users\mobile-gateway
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:180)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:123)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:369)
+	... 35 more
+Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-readable POM C:\Users\AIDA\java\sts\v3\mobile-users\mobile-gateway: C:\Users\AIDA\java\sts\v3\mobile-users\mobile-gateway (Access is denied) @ 
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:176)
+	at org.apache.maven.model.building.DefaultModelBuilder.readModel(DefaultModelBuilder.java:643)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:263)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:249)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:176)
+	... 37 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 0 2024-07-12 10:36:52.776
+!MESSAGE Could not read maven project
+!STACK 0
+org.apache.maven.project.ProjectBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-readable POM C:\Users\AIDA\java\sts\v3\mobile-users\mobile-gateway: C:\Users\AIDA\java\sts\v3\mobile-users\mobile-gateway (Access is denied) @ 
+ for project  at C:\Users\AIDA\java\sts\v3\mobile-users\mobile-gateway
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:180)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:123)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:369)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readProject(MavenImpl.java:361)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.lambda$4(AbstractMavenArchiverConfigurator.java:576)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.loadParentHierarchy(AbstractMavenArchiverConfigurator.java:568)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.generateManifest(AbstractMavenArchiverConfigurator.java:365)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.mavenProjectChanged(AbstractMavenArchiverConfigurator.java:228)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.mavenProjectChanged(AbstractMavenArchiverConfigurator.java:220)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.mavenProjectChanged(ProjectConfigurationManager.java:885)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:324)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-readable POM C:\Users\AIDA\java\sts\v3\mobile-users\mobile-gateway: C:\Users\AIDA\java\sts\v3\mobile-users\mobile-gateway (Access is denied) @ 
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:176)
+	at org.apache.maven.model.building.DefaultModelBuilder.readModel(DefaultModelBuilder.java:643)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:263)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:249)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:176)
+	... 37 more
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:37:37.098
+!MESSAGE Classpath changed for project: mobile-api-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:37:37.099
+!MESSAGE Boot project REMOVED: mobile-api-gateway
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2024-07-12 10:37:37.118
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): mobile-api-gateway does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2603)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2353)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2396)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-07-12 10:37:37.119
+!MESSAGE mobile-api-gateway does not exist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:41:21.906
+!MESSAGE Classpath changed for project: mobile-employee
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:41:24.514
+!MESSAGE Classpath changed for project: mobile-employee
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:41:24.580
+!MESSAGE Boot project ADDED: mobile-employee
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 10:41:25.849
+!MESSAGE Classpath changed for project: mobile-employee
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 13:08:11.318
+!MESSAGE Classpath changed for project: mobile-employee
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 13:08:11.319
+!MESSAGE Boot project REMOVED: mobile-employee
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 13:13:51.421
+!MESSAGE Classpath changed for project: mobile-product
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 13:13:51.422
+!MESSAGE Boot project REMOVED: mobile-product
+!SESSION 2024-07-12 14:25:58.498 -----------------------------------------------
+eclipse.buildId=4.23.1.202406150140
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-12 14:26:01.946
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-12 14:26:16.971
+!MESSAGE Logback config file: C:\Users\AIDA\java\sts\git-hub\spring-cloud\mobile-eureka\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-07-12 14:26:17.552
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-12 14:26:17.552
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-07-12 14:26:17.947
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-12 14:26:17.947
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-12 14:26:22.547
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\AIDA\sts\sts-4.23.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530\jre\bin\javaw.exe
+-cp
+C:\Users\AIDA\sts\sts-4.23.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.55.1.202406141939\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\AIDA\sts\sts-4.23.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.55.1.202406141939\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\AIDA\sts\sts-4.23.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.55.1.202406141939\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/AIDA/java/sts/git-hub/spring-cloud/mobile-eureka/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1720812382547
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 14:26:22.548
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-12 14:26:22.604
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 25564
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 14:26:24.361
+!MESSAGE Boot project ADDED: mobile-acct
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 14:26:24.369
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 14:26:24.434
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 14:26:24.436
+!MESSAGE Boot project ADDED: mobile-eureka
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 14:26:24.438
+!MESSAGE Boot project ADDED: mobile-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-12 14:26:24.440
+!MESSAGE Boot project ADDED: mobile-users
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-07-12 14:26:24.460
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\AIDA'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

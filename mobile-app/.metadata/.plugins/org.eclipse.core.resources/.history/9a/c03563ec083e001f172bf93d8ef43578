@@ -1,0 +1,5 @@
+package com.shopping.ws.rest.model;
+
+public class UserRequest {
+
+}

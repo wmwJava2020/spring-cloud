@@ -1,0 +1,9 @@
+package com.shopping.ws.service;
+
+import java.util.UUID;
+
+public interface MobileProductService {
+	
+	public String getMobileModel();
+
+}

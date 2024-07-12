@@ -1,0 +1,16 @@
+package com.shopping.ws.service;
+
+import java.util.UUID;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class MobileProductServiceImpl implements MobileProductService    {
+
+	@Override
+	public String getMobileModel()  {
+		String str = UUID.randomUUID().toString();
+		return str;
+	}
+
+}
